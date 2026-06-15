@@ -1,0 +1,15 @@
+{
+  "name": "cross-game-agent-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CROSS game agent wallet role mapping and wrong-wallet prevention driver.",
+  "scripts": {
+    "check": "node --check scripts/_json.mjs && node --check scripts/_wallets.mjs && node --check scripts/template.mjs && node --check scripts/roles.mjs && node --check scripts/route.mjs && node --check scripts/validate.mjs",
+    "smoke:read": "node scripts/template.mjs && node scripts/validate.mjs --demo && node scripts/route.mjs --demo --intent=play-paid-game --game=claw-royale"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}

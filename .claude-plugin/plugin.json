@@ -1,0 +1,11 @@
+{
+  "name": "skill-cross-game-agent-wallet",
+  "version": "0.1.0",
+  "description": "CROSS game agent wallet role mapping and wrong-wallet prevention skill.",
+  "skills": [
+    {
+      "name": "cross-game-agent-wallet",
+      "path": "skills/cross-game-agent-wallet"
+    }
+  ]
+}
