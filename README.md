@@ -1,4 +1,4 @@
-﻿# cross-game-agent-wallet
+# cross-game-agent-wallet
 
 AnarchI Technologies (TM) CROSS game agent wallet role mapping and wrong-wallet prevention skill.
 
@@ -19,7 +19,7 @@ Validates public wallet role maps and routes explicit intents to the correct wal
 ## Setup
 
 ~~~bash
-git clone https://github.com/AnarchI-Technologies/skill-cross-game-agent-wallet.git
+git clone https://github.com/AnarchI-Technologies-MAIN/skill-cross-game-agent-wallet.git
 cd skill-cross-game-agent-wallet
 ./install.sh
 ~~~
